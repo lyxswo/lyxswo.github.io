@@ -1,4 +1,4 @@
-# 用hugo+github搭建个人博客
+# 使用hugo+github搭建个人博客(一)
 
 ## 第一部分：hugo部分
 ### 1. 下载hugo和git工具
@@ -1035,7 +1035,7 @@ ssh-keygen -f ~/.ssh/github
 hugo
 cd public
 git init .
-git remote add origin https://github.com/<用户名>/<用户名>.github.io.git
+git remote add origin git@github.com:<用户名>/<用户名>.github.io.git
 git add .
 git commit -m "first commit"
 git push -u origin main
